@@ -11,5 +11,7 @@ class Pos1 {
 
         if (n > 0)
             System.out.println("その値は正です。");
+        else
+            System.out.println("その値は０か負です。");
     }
 }
