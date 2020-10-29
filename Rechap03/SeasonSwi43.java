@@ -1,4 +1,4 @@
-// list 3C-1 switch式
+// list 3C-1 switch式→switch文とは違うのだよ
 
 import java.util.Scanner;
 
