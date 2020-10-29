@@ -20,8 +20,8 @@ class Switch321 {
             case 5 :    System.out.print("F");
             System.out.print("L");
             break;
-            case 6 :
-            case 7 :    System.out.print("G");
+            // case 6 :
+            case 7,8 :    System.out.print("G");
             break;
             
             default:    System.out.print("M");
