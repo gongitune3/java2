@@ -11,5 +11,10 @@ class Min43w2 {
 
         int min = a < b ? a :b;
         System.out.println("小さいのは" + min + "です。");
+
+        //System.out.println("小さいのは" + (a < b ? a :b) + "です。");
     }
 }
+
+
+// x ? y : z xがtrueであればyを評価した値を、そうでなければzを評価した値を生成。
