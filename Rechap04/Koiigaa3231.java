@@ -8,5 +8,11 @@ class Koiigaa3231 {
 
         System.out.println("整数を加算します。");
         int total = 0; //全グループの合計
+
+    Outer:
+        for(int i =     ; i <= 10; i++ ) {
+            System.out.println("■第" + i + "グループ");
+            int sum
+        }
     }
 }
