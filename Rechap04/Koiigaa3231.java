@@ -10,9 +10,22 @@ class Koiigaa3231 {
         int total = 0; //全グループの合計
 
     Outer:
-        for(int i =     ; i <= 10; i++ ) {
+        for(int i = 1; i <= 10; i++ ) {
             System.out.println("■第" + i + "グループ");
-            int sum
+            int sum = 0; //グループの小計
+        Inner:
+            for (int j = 0; j < 5; j++ ) {
+                System.out.print("整数：");
+                int t = stdIn.nextInt();
+                if (t == 9999)
+                break Outer;
+                else if (t == 8888)
+                break Inner;
+                sum += t;
+            }
+            System.out.println("\n小計は" + sum + "です。");
+            total += sum;
         }
+        System.out.println("\n合計は" + total + "デス。");
     }
 }
