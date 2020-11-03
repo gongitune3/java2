@@ -12,7 +12,12 @@ class Asfdse21 {
 
         int sum = 0;
         for (int i = 0; i < n; i++) {
-            
+            System.out.print("整数：");
+            int t = stdIn.nextInt();
+
+            if (sum + t > 1000) {
+                
+            }
         }
     }
 }
