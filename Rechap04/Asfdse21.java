@@ -9,5 +9,10 @@ class Asfdse21 {
         System.out.println("整数で加算しますか。");
         System.out.println("何個加算しますか：");
         int n = stdIn.nextInt(); //加算する個数。
+
+        int sum = 0;
+        for (int i = 0; i < n; i++) {
+            
+        }
     }
 }
