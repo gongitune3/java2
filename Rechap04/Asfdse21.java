@@ -16,8 +16,12 @@ class Asfdse21 {
             int t = stdIn.nextInt();
 
             if (sum + t > 1000) {
-                
+                System.out.println("合計が1000を超えました。");
+				System.out.println("最後の数値は無視します。");
+				break;
             }
+			sum += t;
         }
+        System.out.print("合計は" + sum + "です。");
     }
 }
